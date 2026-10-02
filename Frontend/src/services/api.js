@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_URL || "https://khaata-backend-04mw.onrender.com/api/v1";
+const baseURL = import.meta.env.VITE_API_URL || "https://khaata-backend-04mw.onrender.com";
 
 const api = axios.create({
   baseURL: baseURL,
